@@ -12,7 +12,7 @@ export function Button({ title, ...rest }: Props) {
       fontSize="sm"
       rounded="sm"
       _pressed={{ bg: "green.500" }}
-      {...rest}
+      {...rest} /* tem sempre que estar por último */
     >
       <Heading color="white" fontSize="sm">
         {title}
